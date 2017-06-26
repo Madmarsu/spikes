@@ -2,10 +2,10 @@
 /* fichier décrivant la structure des données utilisées pour un "module"
 
 class structModule {
-  constructor(id) {
-    this.id: id;
+  constructor(typeModule) {
+    this.id: 0;
     this.x, this.y, this.w, this.h: 0;
-    this.type_module: "type module";
+    this.typeModule: typeModule;
     this.titre: "nom du module";
     this.open: true;
     this.openDate: now();
